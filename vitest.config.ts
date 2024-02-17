@@ -4,6 +4,6 @@ import configuration from './vite.config';
 export default defineConfig({
   ...configuration,
   test: {
-    include: ['*.test.ts'],
+    include: ['**/*.test.ts'],
   },
 });
